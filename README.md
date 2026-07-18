@@ -31,17 +31,6 @@ It is designed to solve the root challenge of multi-agency incident coordination
 
 ---
 
-## 🔑 Demo Credentials
-
-To test the secure operator and staff companion dashboards, you can use these seeded credentials or register a new account on the login page:
-
-| Workspace Portal | Username | Password | Access Level |
-| :--- | :--- | :--- | :--- |
-| **Operations Control** | `operator` | `password123` | Operations Lead Dashboard |
-| **Staff Companion** | `volunteer` | `password123` | Field Volunteer Portal |
-
----
-
 ## 💻 Local Quick Start
 
 To clone and run the application locally:
@@ -74,6 +63,6 @@ node scratch/db_test.js
 
 ### 5. Start the Server
 ```bash
-npm start
+n start
 ```
 Open [http://localhost:3000](http://localhost:3000) in your web browser.
